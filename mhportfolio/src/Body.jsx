@@ -11,7 +11,7 @@ function Body() {
 
     return (
         
-        <div class="bodyContainer">
+        <div className="bodyContainer">
 
         <Routes>
             <Route path="/" element={<MainBody />} />

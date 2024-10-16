@@ -6,8 +6,8 @@ function Header() {
     return (
         <>
 
-        <div class="headerContainer">
-            <div class="headerItem" onClick={() => navigate('/')}>
+        <div className="headerContainer">
+            <div className="headerItem" onClick={() => navigate('/')}>
                 <h1 className="headerText">Martin Håkansson</h1>
                 <h3 className="headerUnderText">M.Sc. Computer Science Student</h3>
             </div>
