@@ -8,7 +8,7 @@ function MainBody() {
             <div className="tempMidContainer">
                 <p className="centerText">
                 Hey! I'm in the process of gathering all my projects in one place, this place. 
-                I'm not done yet, but in the meantime, you can check out some of my projects that are online right now.
+                I'm not done yet. In the meantime, you can check out some of my projects that are online right now.
                 </p>
                 <div className="portItem">
                     <div className='top'>
