@@ -7,14 +7,14 @@ import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 
 function Body() {
 
-    const navigate = useNavigate();
+    
 
     return (
         
         <div class="bodyContainer">
 
         <Routes>
-            <Route path="/" navigate={navigate} element={<MainBody />} />
+            <Route path="/" element={<MainBody />} />
             <Route path="/stars" element={<Stars />} />
         </Routes>
         
